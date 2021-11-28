@@ -1,0 +1,10 @@
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/Review.java
+ com.example.myapplication.Review
+com/example/myapplication/MainActivity.java
+ com.example.myapplication.MainActivity
+ com.example.myapplication.MainActivity$1
+ com.example.myapplication.MainActivity$2
+com/example/myapplication/Recommend.java
+ com.example.myapplication.Recommend
