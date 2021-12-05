@@ -26,7 +26,7 @@ public class Recommend extends AppCompatActivity {
         Spinner spinner3 = (Spinner) findViewById(R.id.spinner_3);
         Spinner spinner4 = (Spinner) findViewById(R.id.spinner_4);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.my_array, android.R.layout.simple_spinner_item);
+                R.array.my_array, android.R.layout.simple_spinner_item);//res->values->array.xml의 my_array와 연동
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner1.setAdapter(adapter);
         spinner2.setAdapter(adapter);
