@@ -1754,6 +1754,8 @@ id BOTTOM_START
 id Button_1
 id Button_2
 id Button_3
+id Button_4
+id Button_5
 id CTRL
 id FUNCTION
 id META
@@ -1857,6 +1859,7 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id check_button
 id checkbox
 id checked
 id chip
@@ -1889,6 +1892,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -1962,12 +1966,18 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView3
 id info
 id informaion_toolbar
 id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id join_button
+id join_email
+id join_name
+id join_password
+id join_pwck
 id jumpToEnd
 id jumpToStart
 id labelGroup
@@ -1988,6 +1998,9 @@ id linearLayout5
 id listMode
 id listView
 id list_item
+id login_button
+id login_email
+id login_password
 id masked
 id material_clock_display
 id material_clock_face
@@ -2280,9 +2293,11 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_db
 layout activity_information
+layout activity_login
 layout activity_main
 layout activity_modify
 layout activity_recommend
+layout activity_register
 layout activity_review
 layout custom_dialog
 layout design_bottom_navigation_item

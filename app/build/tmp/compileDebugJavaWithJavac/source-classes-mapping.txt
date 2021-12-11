@@ -1,16 +1,18 @@
 com/example/myapplication/Review.java
  com.example.myapplication.Review
+com/example/myapplication/DbHelper.java
+ com.example.myapplication.DBHelper
 com/example/myapplication/Information.java
  com.example.myapplication.Information
+com/example/myapplication/DBHelper3.java
+ com.example.myapplication.DBHelper3
 com/example/myapplication/BuildConfig.java
  com.example.myapplication.BuildConfig
 com/example/myapplication/DBHelper2.java
  com.example.myapplication.DBHelper2
-com/example/myapplication/MainActivity.java
- com.example.myapplication.MainActivity
- com.example.myapplication.MainActivity$1
- com.example.myapplication.MainActivity$2
- com.example.myapplication.MainActivity$3
+com/example/myapplication/Modify.java
+ com.example.myapplication.Modify
+ com.example.myapplication.Modify$1
 com/example/myapplication/Recommend.java
  com.example.myapplication.Recommend
 com/example/myapplication/DB.java
@@ -19,8 +21,18 @@ com/example/myapplication/DB.java
  com.example.myapplication.DB$2
  com.example.myapplication.DB$3
  com.example.myapplication.DB$4
-com/example/myapplication/Modify.java
- com.example.myapplication.Modify
- com.example.myapplication.Modify$1
-com/example/myapplication/DbHelper.java
- com.example.myapplication.DBHelper
+com/example/myapplication/RegisterActivity.java
+ com.example.myapplication.RegisterActivity
+ com.example.myapplication.RegisterActivity$1
+ com.example.myapplication.RegisterActivity$2
+com/example/myapplication/MainActivity.java
+ com.example.myapplication.MainActivity
+ com.example.myapplication.MainActivity$1
+ com.example.myapplication.MainActivity$2
+ com.example.myapplication.MainActivity$3
+ com.example.myapplication.MainActivity$4
+ com.example.myapplication.MainActivity$5
+com/example/myapplication/LoginActivity.java
+ com.example.myapplication.LoginActivity
+ com.example.myapplication.LoginActivity$1
+ com.example.myapplication.LoginActivity$2

@@ -41,4 +41,22 @@
         app:layout_constraintTop_toTopOf="@id/Button_1"
         app:layout_constraintVertical_bias="0.34" />
 
+    <Button
+        android:id="@+id/Button_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        app:layout_constraintBottom_toTopOf="@+id/Button_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="161dp" />
+
+    <Button
+        android:id="@+id/Button_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        app:layout_constraintBottom_toTopOf="@+id/Button_4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="161dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

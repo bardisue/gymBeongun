@@ -35,7 +35,7 @@
 23    </queries>
 24
 25    <application
-25-->C:\Users\PARKBEONGJUN\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:5:5-47:19
+25-->C:\Users\PARKBEONGJUN\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:5:5-55:19
 26        android:allowBackup="true"
 26-->C:\Users\PARKBEONGJUN\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:6:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -89,29 +89,37 @@
 52-->C:\Users\PARKBEONGJUN\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:42:9-46:20
 52-->C:\Users\PARKBEONGJUN\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:43:13-40
 53        </activity>
-54        <!-- Needs to be explicitly declared on P+ -->
-55        <uses-library
-55-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:39:9-41:40
-56            android:name="org.apache.http.legacy"
-56-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:40:13-50
-57            android:required="false" />
-57-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:41:13-37
-58
-59        <activity
-59-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-60-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-61            android:exported="false"
-61-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-62-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-63
-64        <meta-data
-64-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-65            android:name="com.google.android.gms.version"
-65-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-66            android:value="@integer/google_play_services_version" />
-66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-67    </application>
-68
-69</manifest>
+54        <activity android:name="com.example.myapplication.RegisterActivity" >
+54-->C:\Users\PARKBEONGJUN\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:47:9-50:20
+54-->C:\Users\PARKBEONGJUN\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:48:13-45
+55        </activity>
+56        <activity android:name="com.example.myapplication.LoginActivity" >
+56-->C:\Users\PARKBEONGJUN\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:51:9-54:20
+56-->C:\Users\PARKBEONGJUN\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:52:13-42
+57        </activity>
+58        <!-- Needs to be explicitly declared on P+ -->
+59        <uses-library
+59-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:39:9-41:40
+60            android:name="org.apache.http.legacy"
+60-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:40:13-50
+61            android:required="false" />
+61-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:41:13-37
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PARKBEONGJUN\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+71    </application>
+72
+73</manifest>

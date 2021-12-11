@@ -17,6 +17,9 @@ public class MainActivity extends AppCompatActivity {
     Button button1;
     Button button2;
     Button button3;
+    Button button4;
+    Button button5;
+
 
     DBHelper dbHelper;
     SQLiteDatabase db = null;
@@ -29,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
         button1 = findViewById(R.id.Button_1);
         button2 = findViewById(R.id.Button_2);
         button3 = findViewById(R.id.Button_3);
+
+        button4 = findViewById(R.id.Button_4);
+        button5 = findViewById(R.id.Button_5);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +54,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, DB.class));//DB.class로 이동
+            }
+        });
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, RegisterActivity.class));//DB.class로 이동
+            }
+        });
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));//DB.class로 이동
             }
         });
     }
